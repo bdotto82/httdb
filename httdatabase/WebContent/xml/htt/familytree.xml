@@ -1,0 +1,139 @@
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd"
+	xmlns="http://www.phyloxml.org">
+	<phylogeny rooted="false">
+		<render>
+			<parameters>
+				<circular>
+					<bufferRadius>0.5</bufferRadius>
+
+					<bufferAngle>10</bufferAngle>
+					<initStartAngle>180</initStartAngle>
+
+				</circular>
+				<rectangular>
+					<alignRight>1</alignRight>
+					<bufferX>300</bufferX>
+				</rectangular>
+			</parameters>
+			<charts>
+				<!-- <component type="binary" thickness="5" /> -->
+				<group type="integratedBinary" thickness="15" />
+				<content type="bar" fill="#666" width="0.2" />
+			</charts>
+			<styles>
+				<caffeine fill='#A93' stroke='#DDD' />
+				<base fill='#8b7100' stroke='#DDD' />
+				<other fill='#333' stroke='#DDD' />
+				<high fill='#666' stroke='#DDD' />
+				<mid fill='#999' stroke='#DDD' />
+				<low fill='#CCC' stroke='#DDD' />
+
+				<none fill='#FFF' stroke='#CCC' />
+				<sectorHighlightText font-family="Verdana"
+					font-size="9" font-weight="bold" fill="rgb(0,0,0)" rotate="90" />
+
+				<azul fill='rgb(124, 181, 236)' stroke='#DDD' />
+
+				<barChart fill='#333' stroke-width="0" />
+			</styles>
+		</render>
+
+		<clade>
+			<clade>
+				<clade>
+					<clade>
+						<clade>
+							<name>Saccharomycetaceae</name>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<clade>
+							<name>Plectosphaerellaceae</name>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<clade>
+						<clade>
+							<clade>
+								<name>Armadillidiidae</name>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<clade>
+								<clade>
+									<name>Formicidae</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<clade>
+									<clade>
+										<name>Culicidae</name>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<clade>
+										<clade>
+											<name>Tephritidae</name>
+											<branch_length>4.0</branch_length>
+										</clade>
+										<clade>
+											<name>Drosophilidae</name>
+											<branch_length>4.0</branch_length>
+										</clade>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<branch_length>4.0</branch_length>
+								<clade>
+									<name>Noctuidae</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<clade>
+							<clade>
+								<clade>
+									<clade>
+										<name>Adrianichthyidae</name>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<clade>
+										<name>Poeciliidae</name>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<clade>
+									<name>Salmonidae</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<clade>
+								<clade>
+									<name>Dasyuridae</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<clade>
+									<name>Vespertilionidae</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<branch_length>4.0</branch_length>
+				</clade>
+				<clade>
+					<name>Poaceae</name>
+					<branch_length>4.0</branch_length>
+				</clade>
+				<branch_length>4.0</branch_length>
+			</clade>
+			<branch_length>4.0</branch_length>
+		</clade>
+	</phylogeny>
+</phyloxml>

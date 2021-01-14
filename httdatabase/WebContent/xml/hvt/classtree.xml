@@ -1,0 +1,215 @@
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd"
+	xmlns="http://www.phyloxml.org">
+	<phylogeny rooted="false">
+		<render>
+			<parameters>
+				<circular>
+					<bufferRadius>0.5</bufferRadius>
+
+					<bufferAngle>10</bufferAngle>
+					<initStartAngle>180</initStartAngle>
+
+				</circular>
+				<rectangular>
+					<alignRight>1</alignRight>
+					<bufferX>300</bufferX>
+				</rectangular>
+			</parameters>
+			<charts>
+				<!-- <component type="binary" thickness="5" /> -->
+				<group type="integratedBinary" thickness="15" />
+				<content type="bar" fill="#666" width="0.2" />
+			</charts>
+			<styles>
+				<caffeine fill='#A93' stroke='#DDD' />
+				<base fill='#8b7100' stroke='#DDD' />
+				<other fill='#333' stroke='#DDD' />
+				<high fill='#666' stroke='#DDD' />
+				<mid fill='#999' stroke='#DDD' />
+				<low fill='#CCC' stroke='#DDD' />
+
+				<none fill='#FFF' stroke='#CCC' />
+				<sectorHighlightText font-family="Verdana"
+					font-size="9" font-weight="bold" fill="rgb(0,0,0)" rotate="90" />
+
+				<azul fill='rgb(124, 181, 236)' stroke='#DDD' />
+
+				<barChart fill='#333' stroke-width="0" />
+			</styles>
+		</render>
+
+		<clade>
+			<clade>
+				<clade>
+					<clade>
+						<clade>
+							<clade>
+								<name>Agaricomycetes</name>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<clade>
+								<name>Pucciniomycetes</name>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<clade>
+							<clade>
+								<name>Saccharomycetes</name>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<clade>
+								<clade>
+									<name>Pezizomycetes</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<clade>
+									<clade>
+										<name>Sordariomycetes</name>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<clade>
+										<name>Eurotiomycetes</name>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<clade>
+						<clade>
+							<name>Hydrozoa</name>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<clade>
+							<clade>
+								<clade>
+									<clade>
+										<clade>
+											<name>Actinopteri</name>
+											<branch_length>4.0</branch_length>
+										</clade>
+										<clade>
+											<clade>
+												<clade>
+													<name>Aves</name>
+													<branch_length>4.0</branch_length>
+												</clade>
+												<clade>
+													<name>Mammalia</name>
+													<branch_length>4.0</branch_length>
+												</clade>
+												<branch_length>4.0</branch_length>
+											</clade>
+											<clade>
+												<name>Amphibia</name>
+												<branch_length>4.0</branch_length>
+											</clade>
+											<branch_length>4.0</branch_length>
+										</clade>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<clade>
+										<name>Cyclostomata</name>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<clade>
+									<name>Ascidiacea</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<clade>
+								<clade>
+									<name>Gastropoda</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<clade>
+									<clade>
+										<name>Chromadorea</name>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<clade>
+										<clade>
+											<clade>
+												<name>Chilopoda</name>
+												<branch_length>4.0</branch_length>
+											</clade>
+											<clade>
+												<clade>
+													<clade>
+														<name>Branchiopoda</name>
+														<branch_length>4.0</branch_length>
+													</clade>
+													<clade>
+														<name>Maxillopoda</name>
+														<branch_length>4.0</branch_length>
+													</clade>
+													<clade>
+														<name>Malacostraca</name>
+														<branch_length>4.0</branch_length>
+													</clade>
+													<branch_length>4.0</branch_length>
+												</clade>
+												<clade>
+													<name>Insecta</name>
+													<branch_length>4.0</branch_length>
+												</clade>
+												<branch_length>4.0</branch_length>
+											</clade>
+											<branch_length>4.0</branch_length>
+										</clade>
+										<clade>
+											<name>Arachnida</name>
+											<branch_length>4.0</branch_length>
+										</clade>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<clade>
+								<name>Trematoda</name>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<branch_length>4.0</branch_length>
+				</clade>
+				<clade>
+					<clade>
+						<name>Liliopsida</name>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<clade>
+						<name>Mamiellophyceae</name>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<branch_length>4.0</branch_length>
+				</clade>
+				<clade>
+					<clade>
+						<name>Phaeophyceae</name>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<clade>
+						<name>Bacillariophyceae</name>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<branch_length>4.0</branch_length>
+				</clade>
+				<branch_length>4.0</branch_length>
+			</clade>
+		</clade>
+	</phylogeny>
+</phyloxml>

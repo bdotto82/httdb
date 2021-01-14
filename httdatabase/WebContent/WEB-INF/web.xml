@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>HTT</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Salva Classe</servlet-name>
+    <servlet-class>org.unipampa.servlet.SalvaClasse</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Salva Classe</servlet-name>
+    <url-pattern>/salvaclasse/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Salva Super Family</servlet-name>
+    <servlet-class>org.unipampa.servlet.SalvaSuperFamily</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Salva Super Family</servlet-name>
+    <url-pattern>/salvasuperfamily/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Salva Family</servlet-name>
+    <servlet-class>org.unipampa.servlet.SalvaFamily</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Salva Family</servlet-name>
+    <url-pattern>/salvafamily/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Salva Organism</servlet-name>
+    <servlet-class>org.unipampa.servlet.SalvaOrganism</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Salva Organism</servlet-name>
+    <url-pattern>/salvaorganism/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Salva Level</servlet-name>
+    <servlet-class>org.unipampa.servlet.SalvaLevel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Salva Level</servlet-name>
+    <url-pattern>/salvalevel/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Salva Method</servlet-name>
+    <servlet-class>org.unipampa.servlet.SalvaMethod</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Salva Method</servlet-name>
+    <url-pattern>/salvamethod/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Salva Result</servlet-name>
+    <servlet-class>org.unipampa.servlet.SalvaResult</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Salva Result</servlet-name>
+    <url-pattern>/salvaresult/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Valida Login</servlet-name>
+    <servlet-class>org.unipampa.servlet.ValidaLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Valida Login</servlet-name>
+    <url-pattern>/validalogin/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Envia Artigo</servlet-name>
+    <servlet-class>org.unipampa.servlet.EnviaArtigo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Envia Artigo</servlet-name>
+    <url-pattern>/enviaartigo/*</url-pattern>
+
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>Recebe Arquivo</servlet-name>
+    <servlet-class>org.unipampa.servlet.RecebeArquivo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Recebe Arquivo</servlet-name>
+    <url-pattern>/script/recebearquivo/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Retorna Result Script</servlet-name>
+    <servlet-class>org.unipampa.servlet.RetornaResultScript</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Retorna Result Script</servlet-name>
+    <url-pattern>/script/retornaresultscript/*</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Executa Vicha</servlet-name>
+    <servlet-class>org.unipampa.servlet.ExecutaVicha</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Executa Vicha</servlet-name>
+    <url-pattern>/script/executavicha/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Download Resultado</servlet-name>
+    <servlet-class>org.unipampa.servlet.DownloadResultado</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Download Resultado</servlet-name>
+    <url-pattern>/script/downloadresult/*</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>

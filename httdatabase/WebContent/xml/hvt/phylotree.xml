@@ -1,0 +1,138 @@
+<phyloxml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.phyloxml.org http://www.phyloxml.org/1.10/phyloxml.xsd"
+	xmlns="http://www.phyloxml.org">
+	<phylogeny rooted="false">
+		<render>
+			<parameters>
+				<circular>
+					<bufferRadius>0.5</bufferRadius>
+
+					<bufferAngle>10</bufferAngle>
+					<initStartAngle>180</initStartAngle>
+
+				</circular>
+				<rectangular>
+					<alignRight>1</alignRight>
+					<bufferX>300</bufferX>
+				</rectangular>
+			</parameters>
+			<charts>
+				<!-- <component type="binary" thickness="5" /> -->
+				<group type="integratedBinary" thickness="15" />
+				<content type="bar" fill="#666" width="0.2" />
+			</charts>
+			<styles>
+				<caffeine fill='#A93' stroke='#DDD' />
+				<base fill='#8b7100' stroke='#DDD' />
+				<other fill='#333' stroke='#DDD' />
+				<high fill='#666' stroke='#DDD' />
+				<mid fill='#999' stroke='#DDD' />
+				<low fill='#CCC' stroke='#DDD' />
+
+				<none fill='#FFF' stroke='#CCC' />
+				<sectorHighlightText font-family="Verdana"
+					font-size="9" font-weight="bold" fill="rgb(0,0,0)" rotate="90" />
+
+				<azul fill='rgb(124, 181, 236)' stroke='#DDD' />
+
+				<barChart fill='#333' stroke-width="0" />
+			</styles>
+		</render>
+		<clade>
+			<clade>
+				<clade>
+					<clade>
+						<clade>
+							<name>Chlorophyta</name>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<clade>
+							<name>Streptophyta</name>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<clade>
+						<clade>
+							<name>Bacillariophyta</name>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<clade>
+						<clade>
+							<clade>
+								<name>Placozoa</name>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<clade>
+								<clade>
+									<name>Cnidaria</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<clade>
+									<clade>
+										<clade>
+											<clade>
+												<name>Mollusca</name>
+												<branch_length>4.0</branch_length>
+											</clade>
+											<branch_length>4.0</branch_length>
+										</clade>
+										<clade>
+											<clade>
+												<clade>
+													<name>Arthropoda</name>
+													<branch_length>4.0</branch_length>
+												</clade>
+												<branch_length>4.0</branch_length>
+											</clade>
+											<clade>
+												<name>Nematoda</name>
+												<branch_length>4.0</branch_length>
+											</clade>
+											<branch_length>4.0</branch_length>
+										</clade>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<clade>
+										<clade>
+											<name>Chordata</name>
+											<branch_length>4.0</branch_length>
+										</clade>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<clade>
+										<name>Platyhelminthes</name>
+										<branch_length>4.0</branch_length>
+									</clade>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<clade>
+							<clade>
+								<clade>
+									<name>Ascomycota</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<clade>
+									<name>Basidiomycota</name>
+									<branch_length>4.0</branch_length>
+								</clade>
+								<branch_length>4.0</branch_length>
+							</clade>
+							<branch_length>4.0</branch_length>
+						</clade>
+						<branch_length>4.0</branch_length>
+					</clade>
+					<branch_length>4.0</branch_length>
+				</clade>
+				<branch_length>4.0</branch_length>
+			</clade>
+		</clade>
+	</phylogeny>
+</phyloxml>
+	

@@ -1,0 +1,222 @@
+/* select:disabled {background-color: rgb(235, 235, 228); border-color: #ABADB3;} */
+
+.ui-autocomplete-category {
+    font-weight: bold;
+    padding: 3px 5px;
+}
+
+.borda-janela .pager {
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px; 
+	text-align: left; 
+	width: 100%;
+}
+
+.pager form{
+	padding-left:10px;	
+}
+
+.pager input, .pager select, .pager ui-button{
+	font-family: "Arial", "Lucida Grande", Sans-Serif;
+	font-size: 11px; 
+	text-align: center;
+}
+
+.pager .ui-button-text-only .ui-button-text{
+	font-size: 9px; 
+}
+
+.ui-progressbar .ui-progressbar-value {background: #6678b1;}
+
+.ui-progressbar {
+    position: relative;
+  }
+ 
+ .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  
+.botao{font-size: 11px;}
+
+.ui-button-text-only .ui-button-text {font-size: 11px;}
+
+.ui-widget{
+	font-family: "Arial", "Lucida Grande", Sans-Serif;
+}
+
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: small;
+	color:#0070A3;
+	line-height: 1.6em;
+}
+.datepicker{text-align: center;}
+
+fieldset {margin: 0 auto; border-width: 0px;padding-top: 10px; text-align: left;}
+
+label{display:inline-block;
+/*       text-align:right; */
+      margin-bottom: 0px;
+      vertical-align: top;
+      padding-right: 2px;
+      width:auto;
+      color:#0070A3; 
+      font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+      font-size:11px;}
+
+
+.borda-janela {	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	width: 800px; margin: 0 auto;
+	border: 1px solid #dddddd;
+	background: #f2f5f7 url(images/ui-bg_highlight-hard_100_f2f5f7_1x100.png) 50% top repeat-x;
+	color: #362b36;
+	text-align: center;
+	}
+
+.titulo-borda-janela  {
+	border: 1px solid #aed0ea;
+/* 	background: #deedf7 url(images/ui-bg_highlight-soft_100_deedf7_1x100.png) 50% 50% repeat-x; */
+	background: #3baae3 url(images/ui-bg_glass_50_3baae3_1x400.png) 50% 50% repeat-x;
+	color: #fff; 
+/* 	color: #0070A3; */
+	font-weight: bold;
+	width: 800px; 
+	margin: 0 auto;
+	font-size:medium; 
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+    
+    .ui-datepicker{	
+       font-family: "Tahoma";
+	font-size: 11px;
+    }
+    
+.ui-datepicker td a {
+	padding: .1px;
+	text-align: center;
+}
+
+.ui-dialog {
+ 	font-family: "Tahoma";  
+	font-size: small;
+}		
+   .ui-tabs {font-size: small; padding: 4px;} 
+   .ui-tabs .ui-button{font-size: 11px;}
+   .ui-tabs .ui-tabs-nav {font-size: 11px;}
+   
+   .ui-tabs .ui-tabs-panel  {padding: 4px 4px;} 
+   
+	.ui-button {font-size: 11px;}	
+	.ui-dialog .ui-dialog-buttonpane button {font-size:11px;}	
+
+
+.cssmenu .ui-menu { 
+    overflow: hidden;
+    z-index:1;
+}
+.cssmenu .ui-menu .ui-menu {
+    overflow: visible !important;
+}
+.cssmenu .ui-menu > li { 
+    float: left;
+    display: block;
+    width: auto !important;
+}
+.cssmenu .ui-menu ul li {
+    display:block;
+    float:none;
+}
+.cssmenu .ui-menu ul li ul {
+    left:120px !important;
+    width:100%;
+}
+.cssmenu .ui-menu ul li ul li {
+    width:auto;
+}
+
+.cssmenu .ui-menu ul li ul li ul li{
+    width:auto;
+}
+
+.cssmenu .ui-menu ul li ul li a {
+    float:left;
+}
+.cssmenu .ui-menu > li {
+    margin: 5px 5px !important;
+    padding: 0 0 !important;
+}
+.cssmenu .ui-menu > li > a { 
+    float: left;
+    display: block;
+    clear: both;
+    overflow: hidden;
+	font-size: small;
+}
+.cssmenu .ui-menu .ui-menu-icon { 
+    margin-top: 0.3em !important;
+}
+.cssmenu .ui-menu .ui-menu .ui-menu li { 
+    float: left;
+    display: block;
+}
+
+/* tables */
+
+/* tables */
+table.tablesorter {
+/* 	font-family:arial; */
+/* 	background-color: #b9c9fe; */
+/* 	margin:10px 0pt 15px; */
+/* 	font-size: 8pt; */
+/* 	width: 100%; */
+/* 	text-align: left; */
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #B9C9FF;
+/* 	border: 1px solid #FFF; */
+/* 	font-size: 8pt; */
+/* 	padding: 4px; */
+}
+table.tablesorter thead tr .header {
+	background-image: url(images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(images/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+	background-color: #8dbdd8;
+}
+
+table.tablesorter tr.active td {
+  background-color: #d0dafd;
+}
+
+a {
+      font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+      font-size:small;}
